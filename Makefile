@@ -1,5 +1,5 @@
-NS = blang
-REPO = latex
+NS = icewire314
+REPO = latexInkscapeIcemaker
 IMAGE = $(NS)/$(REPO)
 
 .PHONY: build build_ubuntu build_basic build_full
