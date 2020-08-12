@@ -1,4 +1,4 @@
-Latex docker container [![Docker hub](https://img.shields.io/docker/pulls/blang/latex.svg)](https://hub.docker.com/r/blang/latex/)
+Latex docker container [![Docker hub](https://img.shields.io/docker/pulls/latexInkscapeIcemaker/latex.svg)](https://hub.docker.com/r/icewire314/latexInkscapeIcemaker/)
 ======================
 
 This container helps compiling latex sources without the need to install all latex packages on your system.
