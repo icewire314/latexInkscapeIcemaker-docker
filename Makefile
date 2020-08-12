@@ -1,5 +1,5 @@
 NS = icewire314
-REPO = latexinkscapeicemaker
+REPO = latexinkice
 IMAGE = $(NS)/$(REPO)
 
 .PHONY: build build_ubuntu build_basic build_full
