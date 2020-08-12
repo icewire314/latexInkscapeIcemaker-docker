@@ -1,7 +1,7 @@
-Latex docker container [![Docker hub](https://img.shields.io/docker/pulls/latexInkscapeIcemaker/latex.svg)](https://hub.docker.com/r/icewire314/latexInkscapeIcemaker-docker/)
+Latexinkice container
 ======================
 
-This container helps compiling latex sources without the need to install all latex packages on your system.
+This container holds latex, inkscape and icemaker all in one container
 
 Why should I use this container?
 -----
