@@ -3,7 +3,8 @@ MAINTAINER David Johns <david.johns@icewire.ca>
 
 ENV DEBIAN_FRONTEND noninteractive
 
-# RUN apt-get update -q && apt-get install -qy \
+RUN apt-get update -q && apt-get upgrade && apt-get install curl
+#     && apt-get install -qy \
 #     texlive-full \
 #     python-pygments gnuplot \
 #     make git \
