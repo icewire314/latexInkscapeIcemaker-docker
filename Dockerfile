@@ -5,11 +5,11 @@ ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get update -q \
     && apt-get install -qy \
-    curl
-#     texlive-full \
-#     python-pygments gnuplot \
-#     make git \
-#     && rm -rf /var/lib/apt/lists/*
+    curl \
+    texlive-full \
+    python-pygments gnuplot \
+    make git \
+    && rm -rf /var/lib/apt/lists/*
 
 ENV HOME /data
 WORKDIR /data
