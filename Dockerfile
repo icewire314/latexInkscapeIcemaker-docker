@@ -14,7 +14,6 @@ WORKDIR /data
 
 VOLUME ["/data"]
 
-ADD inkscapeANDicemaker.tar.gz /tmp/
 RUN curl -SL https://www.icewire.ca/installFiles/inkscapeANDicemaker.tar.gz > /tmp/inkscapeANDicemaker.tar.gz \
 && tar -xzf /tmp/inkscapeANDicemaker.tar.gz \
 && rm /tmp/inkscapeANDicemaker.tar.gz \
