@@ -1,5 +1,6 @@
 Latexinkice container
 ======================
+[https://hub.docker.com/repository/docker/icewire314/latexinkice](https://hub.docker.com/repository/docker/icewire314/latexinkice)
 
 This container holds latex, inkscape and icemaker all in one container
 
