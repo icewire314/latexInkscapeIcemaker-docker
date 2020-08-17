@@ -63,5 +63,8 @@ docker stop latex_daemon
 
 License
 -------
+This docker container is based on the container created by blang...
+
+[https://github.com/blang/latex-docker](https://github.com/blang/latex-docker)
 
 See [LICENSE](LICENSE) file.
