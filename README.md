@@ -9,7 +9,7 @@ Why should I use this container?
 
 - Easy setup, compile immediately after image download
 - Preserves UID and GID of local user
-- Use container like local command: `latexdockercmd.sh pdflatex main.tex`
+- Use container like local command: `latexdockercmd.sh pdflatex --shell-escape main.tex`
 - Inkscape command: `latexdockercmd.sh inkscape --help`
 - Icemaker command: `latexdockercmd.sh icemaker -help`
 
