@@ -56,7 +56,7 @@ cd my_latex_source
 latexinkicedaemon.sh
 
 # Execute the command in the daemon container, only the daemon container is running
-latexdockerdaemoncmd.sh pdflatex main.tex
+latexdockerdaemoncmd.sh pdflatex --shell-escape main.tex
 
 # Stop the daemon
 docker stop latex_daemon
