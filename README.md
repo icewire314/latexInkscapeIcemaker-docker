@@ -53,7 +53,7 @@ If you're working on source in latex, you might want to compile it multiple time
 cd my_latex_source
 
 # Start a daemon container on this path, it accepts commands from latexdockerdaemoncmd.sh
-latexdockerdaemon.sh
+latexinkicedaemon.sh
 
 # Execute the command in the daemon container, only the daemon container is running
 latexdockerdaemoncmd.sh pdflatex main.tex
