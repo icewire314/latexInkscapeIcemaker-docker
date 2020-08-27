@@ -24,7 +24,7 @@ Use Latex, Inkscape or Icemaker (all in command line mode) using docker:
 chmod +x latexdockercmd.sh
 
 # Compile using pdflatex (docker will pull the image automatically)
-./latexdockercmd.sh pdflatex main.tex
+./latexdockercmd.sh pdflatex --shell-escape main.tex
 
 # Or use Inkscape
 ./latexdockercmd.sh inkscape --help
