@@ -19,6 +19,11 @@ Quick Setup
 Use Latex, Inkscape or Icemaker (all in command line mode) using docker:
 ```bash
 
+# Download the example .tex zip file oneProblem.zip
+# Unzip it and go into that directory
+unzip oneProblem.zip
+cd oneProblem
+
 # Download the command wrapper from github
 # Make it executable
 chmod +x latexdockercmd.sh
