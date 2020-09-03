@@ -9,7 +9,7 @@ Why should I use this container?
 
 - Easy setup, compile immediately after image download
 - Preserves UID and GID of local user
-- Use container like local command: `latexdockercmd.sh pdflatex --shell-escape main.tex`
+- Use container like local command: `latexdockercmd.sh pdflatex --shell-escape oneProblem.tex`
 - Inkscape command: `latexdockercmd.sh inkscape --help`
 - Icemaker command: `latexdockercmd.sh icemaker -help`
 
@@ -24,7 +24,7 @@ Use Latex, Inkscape or Icemaker (all in command line mode) using docker:
 chmod +x latexdockercmd.sh
 
 # Compile using pdflatex (docker will pull the image automatically)
-./latexdockercmd.sh pdflatex --shell-escape main.tex
+./latexdockercmd.sh pdflatex --shell-escape oneProblem.tex
 
 # Or use Inkscape
 ./latexdockercmd.sh inkscape --help
@@ -56,7 +56,7 @@ cd my_latex_source
 latexinkicedaemon.sh
 
 # Execute the command in the daemon container, only the daemon container is running
-latexdockerdaemoncmd.sh pdflatex --shell-escape main.tex
+latexdockerdaemoncmd.sh pdflatex --shell-escape oneProblem.tex
 
 # Stop the daemon
 docker stop latex_daemon
